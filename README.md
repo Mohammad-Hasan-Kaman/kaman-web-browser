@@ -4,7 +4,7 @@
 
 [![C#](https://img.shields.io/badge/C%23-4.8-blue.svg?logo=c-sharp&logoColor=white)](https://docs.microsoft.com/en-us/dotnet/csharp/)
 [![.NET](https://img.shields.io/badge/.NET-Framework%204.8-green.svg?logo=dotnet)](https://dotnet.microsoft.com/)
-[![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg?logo=windows)]()
+[![Release](https://img.shields.io/github/v/release/Mohammad-Hasan-Kaman/kaman-web-browser?color=blue)](https://github.com/Mohammad-Hasan-Kaman/kaman-web-browser/releases)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
