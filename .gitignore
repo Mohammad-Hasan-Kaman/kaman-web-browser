@@ -1,0 +1,23 @@
+## Ignore Visual Studio User and Cache Files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+## Ignore Build Outputs
+[Bb]in/
+[Oo]bj/
+
+## Ignore NuGet Packages
+packages/
+*.nuget.props
+*.nuget.targets
+
+## Ignore OS generated files
+.DS_Store
+Thumb.db
+
+## Ignore Web Browser Data (if any)
+*.db
+*.log
