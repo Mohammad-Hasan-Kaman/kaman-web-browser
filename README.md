@@ -107,7 +107,7 @@ Web_browser/
 
 ## 🤝 Contributing
 
-Found a bug or have a suggestion? Please open an [Issue](https://github.com/Mohammad-Hasan-Kaman/web-browser/issues).
+Found a bug or have a suggestion? Please open an [Issue](https://github.com/Mohammad-Hasan-Kaman/kaman-web-browser/issues).
 Contributions are welcome!
 
 ---
