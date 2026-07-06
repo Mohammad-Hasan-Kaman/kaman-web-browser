@@ -60,7 +60,7 @@ This project is designed for **"Lightweight local browsing with tab support"**:
 
 > **Prerequisite:** Windows 10/11 with **Microsoft Edge WebView2 Runtime** installed (usually pre-installed on modern Windows).
 
-1.  Download the latest release (`Web browser.exe`) from the [Releases](https://github.com/Mohammad-Hasan-Kaman/web-browser/releases) page.
+1.  Download the latest release (`Web browser.exe`) from the [Releases](https://github.com/Mohammad-Hasan-Kaman/kaman-web-browser/releases/tag/v1.0.0) page.
 2.  Run the executable.
 3.  Type a URL or search query in the address bar and press **Enter**!
 
@@ -107,7 +107,7 @@ Web_browser/
 
 ## 🤝 Contributing
 
-Found a bug or have a suggestion? Please open an [Issue](https://github.com/Mohammad-Hasan-Kaman/web-browser/issues).
+Found a bug or have a suggestion? Please open an [Issue](https://github.com/Mohammad-Hasan-Kaman/kaman-web-browser/issues).
 Contributions are welcome!
 
 ---
