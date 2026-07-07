@@ -116,7 +116,7 @@ Contributions are welcome!
 
 If you find this tool useful, please give it a **star**! ⭐
 
-[![Star History](https://api.star-history.com/svg?repos=kaman-web-browser&type=Date)](https://star-history.com/#kaman-web-browser&Date)
+[![Stars](https://img.shields.io/github/stars/Mohammad-Hasan-Kaman/kaman-web-browser?style=for-the-badge&logo=github&color=blue)](https://github.com/Mohammad-Hasan-Kaman/kaman-web-browser/stargazers)
 
 ---
 *Maintained by Mohammad Hasan Kaman | Last updated: July 2026*
