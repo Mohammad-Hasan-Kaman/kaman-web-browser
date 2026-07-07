@@ -116,7 +116,7 @@ Contributions are welcome!
 
 If you find this tool useful, please give it a **star**! ⭐
 
-[![Star History](https://api.star-history.com/svg?repos=Mohammad-Hasan-Kaman/web-browser&type=Date)](https://star-history.com/#Mohammad-Hasan-Kaman/web-browser&Date)
+[![Star History](https://api.star-history.com/svg?repos=kaman-web-browser&type=Date)](https://star-history.com/#kaman-web-browser&Date)
 
 ---
 *Maintained by Mohammad Hasan Kaman | Last updated: July 2026*
