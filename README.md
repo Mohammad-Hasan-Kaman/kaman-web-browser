@@ -119,6 +119,6 @@ If you find this tool useful, please give it a **star**! ⭐
 [![Stars](https://img.shields.io/github/stars/Mohammad-Hasan-Kaman/kaman-web-browser?style=for-the-badge&logo=github&color=blue)](https://github.com/Mohammad-Hasan-Kaman/kaman-web-browser/stargazers)
 
 ---
-*Maintained by Mohammad Hasan Kaman | Last updated: July 2026*
+*Maintained by Mohammad Hasan Kaman | Last updated: October 2026*
 
 > **Disclaimer:** This is a lightweight browser client built for educational purposes. It relies on the Microsoft Edge WebView2 engine. For full browsing features, ensure the WebView2 Runtime is installed.
