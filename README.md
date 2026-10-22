@@ -46,7 +46,7 @@ This project is designed for **"Lightweight local browsing with tab support"**:
 
 | Technology | Role |
 |------------|------|
-| **C# (.NET Framework 4.8)** | Core programming language |
+| **C# (.NET Framework 4.8, x64)** | Core programming language |
 | **Windows Forms** | Desktop UI Framework |
 | **Microsoft.Web.WebView2** | Embedded Chromium-based browser engine (Edge) |
 | **System.Windows.Forms.TabControl** | Multi-tab management |
@@ -60,16 +60,28 @@ This project is designed for **"Lightweight local browsing with tab support"**:
 
 > **Prerequisite:** Windows 10/11 with **Microsoft Edge WebView2 Runtime** installed (usually pre-installed on modern Windows).
 
-1.  Download the latest release (`kaman-web-browser.exe`) from the [Releases](https://github.com/Mohammad-Hasan-Kaman/kaman-web-browser/releases/tag/v1.0.0) page.
-2.  Run the executable.
-3.  Type a URL or search query in the address bar and press **Enter**!
+1.  Download the latest release from the [Releases](https://github.com/Mohammad-Hasan-Kaman/kaman-web-browser/releases) page.
+2.  Extract the archive into one folder. The release contains four files that must stay together:
+
+    | File | Purpose |
+    |------|---------|
+    | `kaman-web-browser.exe` | The application |
+    | `Microsoft.Web.WebView2.Core.dll` | WebView2 engine bindings |
+    | `Microsoft.Web.WebView2.WinForms.dll` | WebView2 WinForms controls |
+    | `WebView2Loader.dll` | Native loader (x64) |
+
+3.  Run `kaman-web-browser.exe`.
+4.  Type a URL or search query in the address bar and press **Enter**!
+
+> Keeping the four files in the same folder is required — the WebView2 managed
+> assemblies and the native loader are resolved next to the executable.
 
 ### 2. For Developers (Source Code)
 
 ```bash
 # Clone the repository
-git clone https://github.com/Mohammad-Hasan-Kaman/web-browser.git
-cd Web_browser
+git clone https://github.com/Mohammad-Hasan-Kaman/kaman-web-browser.git
+cd kaman-web-browser
 
 # Open in Visual Studio
 # Open "Web browser.sln"
@@ -92,15 +104,18 @@ cd Web_browser
 ## 📂 Project Structure
 
 ```
-Web_browser/
-├── Form1.cs             # Main logic: Tab management, navigation, event handling
-├── Form1.Designer.cs    # UI layout (WinForms controls)
-├── Program.cs           # Entry point
-├── Properties/          # App resources and settings
-├── packages/            # NuGet packages (WebView2)
-├── LICENSE              # MIT License
-├── README.md            # This file
-└── Web browser.sln      # Visual Studio Solution
+kaman-web-browser/
+├── Form1.cs               # Main logic: tab management, navigation, event handling
+├── Form1.Designer.cs      # UI layout (WinForms controls)
+├── Form1.resx             # Embedded resources (icons, images)
+├── Program.cs             # Entry point
+├── Properties/            # Assembly info, resources and settings
+├── Web browser.csproj     # Project file (.NET Framework 4.8, x64)
+├── Web browser.sln        # Visual Studio solution
+├── packages.config        # NuGet manifest (Microsoft.Web.WebView2)
+├── App.config             # Application configuration
+├── LICENSE                # MIT License
+└── README.md              # This file
 ```
 
 ---
