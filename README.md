@@ -1,3 +1,9 @@
+### 🌐 Telegram: [@mohaka_programmer](https://t.me/mohaka_programmer)
+
+[![Telegram](https://img.shields.io/badge/Telegram-%40mohaka__programmer-2CA5E0?logo=telegram&logoColor=white)](https://t.me/mohaka_programmer)
+
+---
+
 # 🌐 Kaman Web Browser
 
 > A lightweight, multi-tabbed desktop web browser built with C# and WinForms, powered by the Microsoft Edge WebView2 engine (Chromium). Supports tab management, smart search/navigation, and a clean user interface.
